@@ -8,8 +8,6 @@ from datetime import datetime
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=”!”, intents=intents)
 
-# File to store warnings and infractions
-
 INFRACTIONS_FILE = “infractions.json”
 TICKET_CONFIG_FILE = “ticket_config.json”
 
